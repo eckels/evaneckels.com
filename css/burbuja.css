@@ -1,0 +1,199 @@
+.burbuja-wrapper {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50vh;
+  margin: 0;
+  padding: 0;
+  margin-top: -42vh;
+  margin-left: -40vh;
+  animation: fla 4s infinite;
+}
+
+@keyframes fla {
+  0% {margin-top: -42vh; margin-left: -40vh;}
+  50% {margin-top: -48vh; margin-left: -46vh;}
+  100% {margin-top: -42vh; margin-left: -40vh;}
+}
+
+#burbuja {
+  height: 80vh;
+  width: 80vh;
+  background: -webkit-radial-gradient(#009efd 15%, #2af598 100%);
+  background: -o-radial-gradient(#009efd 15%, #2af598 100%);
+  background: -moz-radial-gradient(#009efd 15%, #2af598 100%);
+  background: radial-gradient(#009efd 15%, #2af598 100%);
+  border-radius: 40vh;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #fff;
+  animation: burb 4s infinite;
+}
+
+.burbuja-wrapper:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at center, rgba(255,255,255,0.2) 5%,rgba(255,255,255,1) 70%,rgba(255,255,255,1) 100%);
+  border-radius: 40vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@keyframes burb {
+  0% {
+    background: -webkit-radial-gradient(#009efd 10%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 10%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 10%, #2af598 100%);
+    background: radial-gradient(#009efd 10%, #2af598 100%);
+  height: 80vh;
+  width: 80vh;
+  }
+
+  5% {
+    background: -webkit-radial-gradient(#009efd 14%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 14%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 14%, #2af598 100%);
+    background: radial-gradient(#009efd 14%, #2af598 100%);
+  }
+
+  10% {
+    background: -webkit-radial-gradient(#009efd 18%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 18%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 18%, #2af598 100%);
+    background: radial-gradient(#009efd 18%, #2af598 100%);
+  }
+
+  15% {
+    background: -webkit-radial-gradient(#009efd 22%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 22%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 22%, #2af598 100%);
+    background: radial-gradient(#009efd 22%, #2af598 100%);
+  }
+
+  20% {
+    background: -webkit-radial-gradient(#009efd 26%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 26%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 26%, #2af598 100%);
+    background: radial-gradient(#009efd 26%, #2af598 100%);
+  }
+
+  25% {
+    background: -webkit-radial-gradient(#009efd 30%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 30%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 30%, #2af598 100%);
+    background: radial-gradient(#009efd 30%, #2af598 100%);
+  }
+
+  30% {
+    background: -webkit-radial-gradient(#009efd 34%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 34%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 34%, #2af598 100%);
+    background: radial-gradient(#009efd 34%, #2af598 100%);
+  }
+
+  35% {
+    background: -webkit-radial-gradient(#009efd 38%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 38%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 38%, #2af598 100%);
+    background: radial-gradient(#009efd 38%, #2af598 100%);
+  }
+
+  40% {
+    background: -webkit-radial-gradient(#009efd 42%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 42%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 42%, #2af598 100%);
+    background: radial-gradient(#009efd 42%, #2af598 100%);
+  }
+
+  45% {
+    background: -webkit-radial-gradient(#009efd 46%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 46%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 46%, #2af598 100%);
+    background: radial-gradient(#009efd 46%, #2af598 100%);
+  }
+
+      50% {
+        background: -webkit-radial-gradient(#009efd 50%, #2af598 100%);
+        background: -o-radial-gradient(#009efd 50%, #2af598 100%);
+        background: -moz-radial-gradient(#009efd 50%, #2af598 100%);
+        background: radial-gradient(#009efd 50%, #2af598 100%);
+  height: 92vh;
+  width: 92vh;
+      }
+
+  55% {
+    background: -webkit-radial-gradient(#009efd 46%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 46%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 46%, #2af598 100%);
+    background: radial-gradient(#009efd 46%, #2af598 100%);
+  }
+
+  60% {
+    background: -webkit-radial-gradient(#009efd 42%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 42%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 42%, #2af598 100%);
+    background: radial-gradient(#009efd 42%, #2af598 100%);
+  }
+
+  65% {
+    background: -webkit-radial-gradient(#009efd 38%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 38%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 38%, #2af598 100%);
+    background: radial-gradient(#009efd 38%, #2af598 100%);
+  }
+
+  70% {
+    background: -webkit-radial-gradient(#009efd 34%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 34%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 34%, #2af598 100%);
+    background: radial-gradient(#009efd 34%, #2af598 100%);
+  }
+
+  75% {
+    background: -webkit-radial-gradient(#009efd 30%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 30%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 30%, #2af598 100%);
+    background: radial-gradient(#009efd 30%, #2af598 100%);
+  }
+
+  80% {
+    background: -webkit-radial-gradient(#009efd 26%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 26%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 26%, #2af598 100%);
+    background: radial-gradient(#009efd 26%, #2af598 100%);
+  }
+
+  85% {
+    background: -webkit-radial-gradient(#009efd 22%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 22%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 22%, #2af598 100%);
+    background: radial-gradient(#009efd 22%, #2af598 100%);
+  }
+
+  90% {
+    background: -webkit-radial-gradient(#009efd 18%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 18%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 18%, #2af598 100%);
+    background: radial-gradient(#009efd 18%, #2af598 100%);
+  }
+
+  95% {
+    background: -webkit-radial-gradient(#009efd 14%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 14%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 14%, #2af598 100%);
+    background: radial-gradient(#009efd 14%, #2af598 100%);
+  }
+
+  100% {
+    background: -webkit-radial-gradient(#009efd 10%, #2af598 100%);
+    background: -o-radial-gradient(#009efd 10%, #2af598 100%);
+    background: -moz-radial-gradient(#009efd 10%, #2af598 100%);
+    background: radial-gradient(#009efd 10%, #2af598 100%);
+  height: 80vh;
+  width: 80vh;
+  }
+}
