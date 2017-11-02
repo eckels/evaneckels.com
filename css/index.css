@@ -5,6 +5,7 @@ header {
   height: 100vh;
   width: 100%;
   top: 0;
+  overflow: hidden;
 }
 
 nav {
@@ -52,11 +53,32 @@ nav a:hover::before {
   transform: scaleX(1);
 }
 
+nav span {
+  display: none;
+}
+
+@media (max-width: 550px) {
+  nav {
+    width: 100%;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+  }
+
+  #fix {
+    margin-left: 0;
+  }
+}
+
 .center {
   position: absolute;
-  height: 210px;
   width: 800px;
-  margin-top: -105px;
   top: 50vh;
   margin-left: -400px;
   left: 50%;
@@ -99,6 +121,114 @@ nav a:hover::before {
   margin-left: auto;
   margin-right: auto;
   color: #464646;
+}
+
+@media (max-width: 850px) {
+  .center h1 {
+    font-size: 5em;
+  }
+
+  .super {
+    font-size: 1.5em;
+  }
+
+  .sub {
+    font-size: 1.1em;
+    margin-top: 10px;
+  }
+
+  .center {
+    width: 80%;
+    margin-left: -40%;
+  }
+}
+
+@media (max-width: 650px) {
+  .align {
+    width: 100%;
+  }
+
+  .center h1 {
+    font-size: 4.5em;
+  }
+
+  .super {
+    font-size: 1.4em;
+    margin-bottom: -20px;
+  }
+
+  .sub {
+    font-size: 1.1em;
+    margin-top: 10px;
+  }
+
+  .center {
+    width: 80%;
+    margin-left: -40%;
+  }
+}
+
+@media (max-width: 510px) {
+  .center h1 {
+    font-size: 4.2em;
+    text-align: center;
+  }
+
+  .super {
+    font-size: 1.4em;
+  }
+
+  .sub {
+    font-size: 1.1em;
+    margin-top: 10px;
+  }
+
+  .center {
+    width: 90%;
+    margin-left: -45%;
+  }
+}
+
+@media (max-width: 430px) {
+  .center h1 {
+    font-size: 3.5em;
+  }
+
+  .super {
+    font-size: 1.3em;
+    margin-bottom: -16px;
+  }
+
+  .sub {
+    font-size: 1.1em;
+    margin-top: 10px;
+  }
+
+  .center {
+    width: 94%;
+    margin-left: -47%;
+  }
+}
+
+@media (max-width: 330px) {
+  .center h1 {
+    font-size: 3.2em;
+  }
+
+  .super {
+    font-size: 1.3em;
+    margin-bottom: -16px;
+  }
+
+  .sub {
+    font-size: 1.1em;
+    margin-top: 10px;
+  }
+
+  .center {
+    width: 94%;
+    margin-left: -47%;
+  }
 }
 
 /* Work Section Styling */

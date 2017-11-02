@@ -1,4 +1,4 @@
-.burbuja-wrapper {
+#burbuja-wrapper {
   display: inline-block;
   position: absolute;
   left: 50%;
@@ -10,10 +10,28 @@
   animation: fla 4s infinite;
 }
 
+#burbuja-wrapper2 {
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50vw;
+  margin: 0;
+  padding: 0;
+  margin-top: -42vw;
+  margin-left: -120vw;
+  animation: fla2 4s infinite;
+}
+
 @keyframes fla {
   0% {margin-top: -42vh; margin-left: -40vh;}
   50% {margin-top: -48vh; margin-left: -46vh;}
   100% {margin-top: -42vh; margin-left: -40vh;}
+}
+
+@keyframes fla2 {
+  0% {margin-top: -42vw; margin-left: -120vw;}
+  50% {margin-top: -48vw; margin-left: -126vw;}
+  100% {margin-top: -42vw; margin-left: -120vw;}
 }
 
 #burbuja {
@@ -31,13 +49,40 @@
   animation: burb 4s infinite;
 }
 
-.burbuja-wrapper:after {
+#burbuja2 {
+  height: 80vw;
+  width: 80vw;
+  background: -webkit-radial-gradient(#009efd 15%, #2af598 100%);
+  background: -o-radial-gradient(#009efd 15%, #2af598 100%);
+  background: -moz-radial-gradient(#009efd 15%, #2af598 100%);
+  background: radial-gradient(#009efd 15%, #2af598 100%);
+  border-radius: 40vw;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #fff;
+  animation: burb 4s infinite;
+}
+
+#burbuja-wrapper:after {
   content: "";
   display: block;
   width: 100%;
   height: 100%;
   background: radial-gradient(ellipse at center, rgba(255,255,255,0.2) 5%,rgba(255,255,255,1) 70%,rgba(255,255,255,1) 100%);
   border-radius: 40vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#burbuja-wrapper2:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at center, rgba(255,255,255,0.2) 5%,rgba(255,255,255,1) 70%,rgba(255,255,255,1) 100%);
+  border-radius: 40vw;
   position: absolute;
   top: 0;
   left: 0;
