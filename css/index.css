@@ -74,6 +74,22 @@ nav span {
   #fix {
     margin-left: 0;
   }
+
+nav span {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: -10px;
+  position: relative;
+  top: 3px;
+  margin: 0 6px 0 10px;
+}
+
+nav a {
+  margin: 0;
+}
 }
 
 .center {
@@ -259,8 +275,8 @@ nav span {
 
 .grid-item {
   background-color: red;
-  height: 460px;
-  width: 300px;
+  height: 440px;
+  width: 290px;
   margin: 0;
   padding: 20px 15px 20px 15px;
   position: relative;
