@@ -274,7 +274,6 @@ nav a {
 }
 
 .grid-item {
-  background-color: red;
   height: 440px;
   width: 290px;
   margin: 0;
@@ -325,4 +324,104 @@ nav a {
   padding: 0;
   font-size: .95em;
   color: white;
+}
+
+@media (max-width: 1250px) {
+#work {
+  padding: 0 0 50px 0;
+}
+}
+
+@media (max-width: 1150px) {
+  .grid-item {
+    margin: 16px 20px 16px 20px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .grid-item {
+    margin: 16px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .grid-item {
+    height: 410px;
+    width: 270px;
+  }
+  #work {
+    padding: 0 .5% 50px .5%;
+  }
+}
+
+@media (max-width: 1014px) {
+  .grid-item {
+    height: 440px;
+    width: 290px;
+    margin: 20px 24px 20px 24px;
+
+  }
+  #work {
+    padding: 0 1% 50px 1%;
+  }
+}
+
+@media (max-width: 780px) {
+  .grid-item {
+    height: 440px;
+    width: 290px;
+    margin: 12px;
+
+  }
+  #work {
+    padding: 0 .5% 50px .5%;
+  }
+}
+
+@media (max-width: 716px) {
+  .grid-item {
+    height: 410px;
+    width: 270px;
+    margin: 12px;
+
+  }
+  #work {
+    padding: 0 .5% 50px .5%;
+  }
+}
+
+@media (max-width: 665px) {
+  .grid-item {
+    height: 440px;
+    width: 290px;
+    margin: 16px;
+
+  }
+  #work {
+    padding: 0 0% 50px 0%;
+  }
+}
+
+@media (max-width: 385px) {
+  .grid-item {
+    height: 440px;
+    width: 290px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #work {
+    padding: 0 10px 50px 10px;
+  }
+
+#work h2 {
+  font-size: 2.2em;
+}
+}
+
+@media (max-width: 385px) {
+  .grid-item {
+    height: 410px;
+    width: 270px;
+    margin: 10px 0 10px 0;
+  }
 }

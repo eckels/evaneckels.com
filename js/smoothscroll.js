@@ -1,7 +1,7 @@
 /**
  * SmoothScroll
- * This helper script created by DWUser.com.  Copyright 2012 DWUser.com.  
- * Dual-licensed under the GPL and MIT licenses.  
+ * This helper script created by DWUser.com.  Copyright 2012 DWUser.com.
+ * Dual-licensed under the GPL and MIT licenses.
  * All individual scripts remain property of their copyrighters.
  * Date: 10-Sep-2012
  * Version: 1.0.1
@@ -30,4 +30,4 @@ if (!window['jQuery']) alert('The jQuery library must be included before the smo
 a=b.extend({},c.defaults,a);return a.lazy?this.bind(a.event,function(d){var c=b([d.target,d.target.parentNode]).filter(e)[0];c&&g(d,c,a)}):this.find("a,area").filter(e).bind(a.event,function(b){g(b,this,a)}).end().end()}})(jQuery);
 
 // Initialize all .smoothScroll links
-jQuery(function($){ $.localScroll({filter:'.smoothScroll'}); });
+jQuery(function($){ $.localScroll({filter:'.smooth'}); });
