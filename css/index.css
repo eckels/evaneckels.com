@@ -79,6 +79,7 @@ nav span {
   display: inline-block;
   margin: 0;
   padding: 0;
+  background-color: transparent;
   font-size: 1.5em;
   color: rgba(0, 0, 0, 0.5);
   margin-top: -10px;
@@ -248,181 +249,137 @@ nav a {
   }
 }
 
-/* Work Section Styling */
+/* About Section Styling */
 
-#work {
-  margin-top: 100vh;
-  padding: 0 5% 50px 5%;
-}
-
-#work h2 {
-  font-size: 2.6em;
-  font-weight: 400;
-  font-family: 'Playfair Display', serif;
-  text-align: center;
-}
-
-.gallery {
-  text-align: center;
-  max-width: 1350px;
+#about {
+  padding: 40px;
+  max-width: 1050px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.gallery a {
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.grid-item {
-  height: 440px;
-  width: 290px;
+#about h2 {
+  font-weight: 700;
+  font-size: 2.3em;
+  color: #2a2a2a;
   margin: 0;
-  padding: 20px 15px 20px 15px;
-  position: relative;
-  border-radius: 12px;
-  transition: all .3s;
-  top: 0;
-  display: inline-block;
-  margin: 20px 24px 20px 24px;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.grid-item:hover {
-  top: -12px;
-}
-
-.grid-item h3 {
-  color: white;
-  font-weight: 500;
-  font-size: 1.8em;
-  margin: 0;
-  padding: 0;
   text-align: left;
 }
 
-.grid-bottom {
+#about hr {
+  width: 100px;
   margin: 0;
-  padding: 0;
-  position: absolute;
-  bottom: 20px;
-  text-align: right;
-  right: 15px;
+  border: solid rgba(0, 0, 0, 0.1) 2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
-.grid-desc {
-  margin: 0;
-  padding: 0;
-  font-weight: bold;
+#about p {
+  color: rgba(0, 0, 0, 0.8);
   font-size: 1.1em;
-  color: white;
-  margin-bottom: 5px;
-}
-
-.grid-date {
+  line-height: 155%;
   margin: 0;
-  padding: 0;
-  font-size: .95em;
-  color: white;
+  text-align: left;
 }
 
-@media (max-width: 1250px) {
-#work {
-  padding: 0 0 50px 0;
-}
-}
-
-@media (max-width: 1150px) {
-  .grid-item {
-    margin: 16px 20px 16px 20px;
-  }
+.about-wrap {
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-block;
+  text-align: center;
 }
 
-@media (max-width: 1100px) {
-  .grid-item {
-    margin: 16px;
+.left {
+  width: 56%;
+  margin: 2%;
+  display: inline-block;
+}
+
+.left p {
+
+}
+
+.widescreen {
+  width: 240px;
+  margin-left: 6%;
+  display: inline-block;
+  vertical-align: text-bottom;
+  border-radius: 120px;
+}
+
+.mobi {
+  display: none;
+  width: 240px;
+}
+
+.contact {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.icons {
+
+}
+
+.icons img {
+  height: 50px;
+  width: 50px;
+  opacity: 0.4;
+  transition: all .3s;
+  margin: auto 10px auto 10px;
+}
+
+.icons img:hover {
+  opacity: .7;
+}
+
+@media (max-width: 810px) {
+  .mobi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 120px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .widescreen {
+    display: none;
+  }
+
+  .left {
+    margin: 0;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #about h2 {
+    text-align: center;
+  }
+
+  #about hr {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .left p {
+
   }
 }
 
-@media (max-width: 1070px) {
-  .grid-item {
-    height: 410px;
-    width: 270px;
-  }
-  #work {
-    padding: 0 .5% 50px .5%;
-  }
-}
-
-@media (max-width: 1014px) {
-  .grid-item {
-    height: 440px;
-    width: 290px;
-    margin: 20px 24px 20px 24px;
-
-  }
-  #work {
-    padding: 0 1% 50px 1%;
-  }
-}
-
-@media (max-width: 780px) {
-  .grid-item {
-    height: 440px;
-    width: 290px;
-    margin: 12px;
-
-  }
-  #work {
-    padding: 0 .5% 50px .5%;
-  }
-}
-
-@media (max-width: 716px) {
-  .grid-item {
-    height: 410px;
-    width: 270px;
-    margin: 12px;
-
-  }
-  #work {
-    padding: 0 .5% 50px .5%;
-  }
-}
-
-@media (max-width: 665px) {
-  .grid-item {
-    height: 440px;
-    width: 290px;
-    margin: 16px;
-
-  }
-  #work {
-    padding: 0 0% 50px 0%;
-  }
-}
-
-@media (max-width: 385px) {
-  .grid-item {
-    height: 440px;
-    width: 290px;
+@media (max-width: 550px) {
+  .left {
+    width: 100%;
     margin-left: 0;
     margin-right: 0;
   }
-  #work {
-    padding: 0 10px 50px 10px;
-  }
-
-#work h2 {
-  font-size: 2.2em;
-}
 }
 
-@media (max-width: 385px) {
-  .grid-item {
-    height: 410px;
-    width: 270px;
-    margin: 10px 0 10px 0;
+@media (max-width: 400px) {
+  #about {
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }

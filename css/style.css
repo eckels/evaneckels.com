@@ -16,3 +16,17 @@ u {
     background-size: 100% 88%;
   }
 }
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+.bottom-p {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.4);
+  padding-bottom: 35px;
+  margin-bottom: 0;
+}
