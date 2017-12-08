@@ -79,13 +79,13 @@ Blog Styling
 .content-area h3 {
   color: #2a2a2a;
   font-size: 2em;
-  margin: 18px 0 18px 0;
+  margin: 24px 0 12px 0;
 }
 
 .content-area h5 {
   color: #2a2a2a;
   font-size: 1.5em;
-  margin: 15px 0 15px 0;
+  margin: 20px 0 10px 0;
 }
 
 .content-area p {
@@ -161,11 +161,11 @@ Blog Styling
 
 @media (max-width: 550px) {
   .content-area h3 {
-    font-size: 1.7em;
+    font-size: 1.8em;
   }
 
   .content-area h5 {
-    font-size: 1.3em;
+    font-size: 1.4em;
   }
 }
 
