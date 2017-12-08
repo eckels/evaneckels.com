@@ -86,6 +86,7 @@ nav span {
   position: relative;
   top: 3px;
   margin: 0 6px 0 10px;
+  box-shadow: none;
 }
 
   nav a {
