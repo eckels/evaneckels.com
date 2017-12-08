@@ -71,6 +71,9 @@ Structure Styling
 }
 
 @media (max-width: 740px) {
+  body {
+    background-color: white;
+  }
   .blog-wrap {
     border-radius: 0;
     box-shadow: none;
