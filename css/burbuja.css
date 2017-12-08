@@ -88,6 +88,13 @@
   left: 0;
 }
 
+/* GET RID OF THIS TO ADD BACK BURBUJA */
+@media (max-width: 500px) {
+  #burbuja-wrapper {
+    display: none;
+  }
+}
+
 @keyframes burb {
   0% {
     background: -webkit-radial-gradient(#009efd 10%, #2af598 100%);
