@@ -16,6 +16,8 @@ $(document).ready(function(){
       $('.burbuja').attr('id', 'burbuja');
     }
 
+    $('.smooth').smoothScroll();
+
   $(window).resize(function() {
     myWidth = $(window).width();
     myHeight = $(window).height();

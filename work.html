@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/work.css" />
+    <link rel="stylesheet" href="aos/aos.css" />
   	<meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
@@ -12,6 +13,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/workgrid.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110019881-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -71,27 +73,43 @@
   <a href="index.html" style="text-decoration: none"><div class="cornerback"><strong class="cornerback2">&#8592;</strong> Back Home</div></a>
 
   <div id="work">
-    <h2>Check out some of my work</h2><!--<hr>-->
+    <h2>Past Work</h2><!--<hr>-->
 
     <div class="gallery">
 
-      <a href="#"><div class="grid-item" style="background-image: url('http://via.placeholder.com/320x480');">
-        <h3>Code211</h3>
+      <a href="blog/bpacares.html" class="hoverthing"><div class="grid-item" style="background-image: url('img/bpacares.jpg');" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="">
+        <h3></h3>
         <div class="grid-bottom">
           <p class="grid-desc">Web Development</p>
           <p class="grid-date">November 2017</p>
         </div>
       </div></a>
 
-      <a href="#"><div class="grid-item" style="background-image: url('http://via.placeholder.com/320x480');">
-        <h3>Grubyr</h3>
+      <a href="#" class="hoverthing"><div class="grid-item" style="background-image: url('img/code211.jpg');" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="">
+        <h3></h3>
+        <div class="grid-bottom">
+          <p class="grid-desc">Web Development</p>
+          <p class="grid-date">November 2017</p>
+        </div>
+      </div></a>
+
+      <a href="#" class="hoverthing"><div class="grid-item" style="background-image: url('http://via.placeholder.com/320x480');" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="">
+        <h3>evaneckels.com</h3>
         <div class="grid-bottom">
           <p class="grid-desc">Web Development</p>
           <p class="grid-date">October 2017</p>
         </div>
       </div></a>
 
-      <a href="#"><div class="grid-item" style="background-image: url('http://via.placeholder.com/320x480');">
+      <a href="#" class="hoverthing"><div class="grid-item" style="background-image: url('img/grubyr.jpg');" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="">
+        <h3></h3>
+        <div class="grid-bottom">
+          <p class="grid-desc">Web Development</p>
+          <p class="grid-date">October 2017</p>
+        </div>
+      </div></a>
+
+      <a href="#" class="hoverthing"><div class="grid-item" style="background-image: url('http://via.placeholder.com/320x480');" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="">
         <h3>Greenbrier Group</h3>
         <div class="grid-bottom">
           <p class="grid-desc">Web Development</p>
@@ -99,7 +117,7 @@
         </div>
       </div></a>
 
-      <a href="#"><div class="grid-item" style="background-image: url('http://via.placeholder.com/320x480');">
+      <a href="#" class="hoverthing"><div class="grid-item" style="background-image: url('http://via.placeholder.com/320x480');" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="">
         <h3>Chicago Hacks</h3>
         <div class="grid-bottom">
           <p class="grid-desc">Web Development</p>
@@ -107,7 +125,7 @@
         </div>
       </div></a>
 
-      <a href="#"><div class="grid-item" style="background-image: url('http://via.placeholder.com/320x480');">
+      <a href="#" class="hoverthing"><div class="grid-item" style="background-image: url('http://via.placeholder.com/320x480');" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="">
         <h3>Evan Eisenmenger</h3>
         <div class="grid-bottom">
           <p class="grid-desc">Web Development</p>
@@ -115,7 +133,15 @@
         </div>
       </div></a>
 
-      <a href="#"><div class="grid-item" style="background-image: url('http://via.placeholder.com/320x480');">
+      <a href="#" class="hoverthing"><div class="grid-item" style="background-image: url('http://via.placeholder.com/320x480');" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="">
+        <h3>TykeBox</h3>
+        <div class="grid-bottom">
+          <p class="grid-desc">Web Development</p>
+          <p class="grid-date">December 2016</p>
+        </div>
+      </div></a>
+
+      <a href="#" class="hoverthing"><div class="grid-item" style="background-image: url('http://via.placeholder.com/320x480');" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="">
         <h3>DIYmatic</h3>
         <div class="grid-bottom">
           <p class="grid-desc">Web Development</p>
@@ -128,6 +154,14 @@
   </div>
 
     <p class="bottom-p">Evan Eckels 2017</p>
+
+    <script src="aos/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true
+      });
+      window.addEventListener('load', AOS.refresh);
+    </script>
 
 </body>
 </html>

@@ -1,0 +1,178 @@
+/*-------------------------------------
+Structure Styling
+--------------------------------------*/
+
+nav {
+
+}
+
+.blog-wrap {
+  padding-left: 25px;
+  padding-right: 25px;
+  max-width: 670px;
+  margin: 120px auto 80px auto;
+  position: relative;
+  z-index: 50;
+}
+
+@media (max-width: 375px) {
+  .blog-wrap {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 650px) {
+  .blog-wrap {
+    margin-top: 90px;
+  }
+}
+
+/*-------------------------------------
+Title Area Styling
+--------------------------------------*/
+
+.title-area {
+  margin-bottom: 45px;
+}
+
+.title-area h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 2.5em;
+  color: #2a2a2a;
+}
+
+.author {
+  margin: 0;
+  margin-top: 3px;
+  font-size: 1em;
+  color: gray;
+}
+
+.date {
+  margin: 0;
+  color: #2a64f8;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+@media (max-width: 650px) {
+  .title-area {
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .title-area h1 {
+    font-size: 2em;
+  }
+  .author {
+    font-size: .9em;
+  }
+}
+
+/*-------------------------------------
+Blog Styling
+--------------------------------------*/
+
+.content-area h3 {
+  color: #2a2a2a;
+  font-size: 2em;
+  margin: 18px 0 18px 0;
+}
+
+.content-area h5 {
+  color: #2a2a2a;
+  font-size: 1.5em;
+  margin: 15px 0 15px 0;
+}
+
+.content-area p {
+  margin: 12px 0 25px 0;
+  color: rgba(0,0,0,.8);
+  line-height: 170%;
+  font-size: 18px;
+}
+
+.content-area b {
+  font-size: 18px;
+}
+
+.content-area i {
+  font-size: 18px;
+}
+
+.content-area u {
+  font-size: 18px;
+}
+
+.content-area strike {
+  font-size: 18px;
+}
+
+.content-area a {
+  color: #2a64f8;
+  transition: all .3s;
+  text-decoration: none;
+  border-bottom: solid #2a64f8 1px;
+  font-size: 18px;
+}
+
+.content-area a:hover {
+  color: #5b88fa;
+}
+
+.content-area ul {
+  line-height: 190%;
+}
+
+.content-area li {
+  font-size: 18px;
+}
+
+.content-area ol {
+  line-height: 190%;
+}
+
+.content-area blockquote {
+  font-size: 18px;
+  line-height: 170%;
+  color: rgba(0,0,0,.8);
+  border-left: solid rgba(42, 100, 248, .6) 2px;
+  padding-left: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 22px;
+}
+
+.content-area img {
+  width: 90%;
+  margin: 12px 5% 12px 5%;
+  height: auto;
+}
+
+.content-area .caption {
+  color: grey;
+  font-size: .95em;
+  text-align: center;
+  margin: -10px 0 12px 0;
+}
+
+@media (max-width: 550px) {
+  .content-area h3 {
+    font-size: 1.7em;
+  }
+
+  .content-area h5 {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 420px) {
+  .content-area img {
+    width: 100%;
+    margin: 12px 0 12px 0;
+    height: auto;
+  }
+}

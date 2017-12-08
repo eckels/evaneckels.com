@@ -88,9 +88,9 @@ nav span {
   margin: 0 6px 0 10px;
 }
 
-nav a {
-  margin: 0;
-}
+  nav a {
+    margin: 0;
+  }
 }
 
 .center {
@@ -325,9 +325,10 @@ nav a {
 .icons img {
   height: 50px;
   width: 50px;
-  opacity: 0.4;
+  opacity: 0.5;
   transition: all .3s;
-  margin: auto 10px auto 10px;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .icons img:hover {

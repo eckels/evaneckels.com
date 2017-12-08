@@ -40,21 +40,28 @@ article {
   margin: 40px;
   vertical-align: top;
   border-radius: 10px;
-  box-shadow: 0 3px 25px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 3px 25px 0 rgba(0,0,0,0.15);
   transition: all .3s;
-  position: relative;
-  top: 0;
 }
 
 article:hover {
-  top: -10px;
-  box-shadow: 0 12px 25px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 12px 25px 0 rgba(0,0,0,0.15);
 }
 
 article:hover img {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   transform: scale(1.1);
+}
+
+.hovert {
+  top: 0;
+  position: relative;
+  transition: all .3s;
+}
+
+.hovert:hover {
+  top: -10px;
 }
 
 .img-wrap {

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/index.css" />
-    <link rel="stylesheet" href="../css/blog-post.css" />
+    <link rel="stylesheet" href="../css/work-post.css" />
     <link rel="stylesheet" href="../aos/aos.css" />
   	<meta name="description" content="" />
     <meta name="keywords" content="" />
@@ -24,6 +24,31 @@
 
 <body>
 
+<style>
+  header {
+    background-color: red;
+  }
+  .blog-wrapper-wrap h1 {
+    color: #2a2a2a;
+  }
+  .timeframe {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  nav a, nav span {
+    color: #464646;
+  }
+  .content-area a {
+    color: #193167;
+    border-bottom: solid #193167 1px;
+  }
+  .content-area a:hover {
+    color: #193167;
+  }
+  .content-area blockquote {
+    border-left: solid #193167 2px;
+  }
+</style>
+
   <header id="header">
 
     <nav>
@@ -36,14 +61,13 @@
 
   </header>
 
-    <div class="blog-wrap">
-    <div class="title-area">
-      <h1>How To Create Your Own Website</h1>
-        <p class="date">7/21/2017</p>
-        <p class="author">By Evan Eckels</p>
-    </div>
+    <div class="blog-wrapper-wrap">
+      <h1>Title Here</h1>
+        <p class="timeframe">June 2017 - July 2017</p>
+    <div class="blog-wrap" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-delay="50" data-aos-duration="400">
 
     <div class="content-area">
+      <div style="text-align: center;"><a href="" target="_blank"><button>Visit Website</button></a></div>
       <h3>Heading (H3)</h3>
       <h5>Sub-Heading (H5)</h5>
       <p>Paragraph ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -53,10 +77,21 @@
       <p>More paragraphs</p>
       <h3>Heading (H3)</h3>
       <p>Paragraph ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <img src="img/mountain.jpg" alt="mountain">
+      <img src="http://via.placeholder.com/160x90" alt="">
       <p class="caption">This is a caption for an image</p>
       <h5>Sub-Heading (H5)</h5>
       <p>Paragraph ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <div class="left" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-delay="250" data-aos-duration="700">
+        <img src="http://via.placeholder.com/160x90" alt="">
+        <p>This is a caption for an image Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+
+      <div class="right" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-delay="250" data-aos-duration="700">
+        <p>This is a caption for an image Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <img src="http://via.placeholder.com/160x90" alt="">
+      </div>
+
       <ul>
         <li>Bullet 1</li>
         <li>Bullet 2</li>
@@ -76,6 +111,8 @@
       <h3>Heading (H3)</h3>
       <p>Paragraph ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ex ea commodo <a href="#">consequat.</a> Duis aute irure dolor in reprehenderit in voluptate <b>velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non</b> proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
+  </div>
+
   </div>
 
   </div>
