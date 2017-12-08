@@ -21,8 +21,18 @@
   margin-left: auto;
   margin-right: auto;
   border: solid rgba(0, 0, 0, 0.1) 2px;
-  margin-top: -10px;
-  margin-bottom: 20px;
+  margin-top: -20px;
+  margin-bottom: 0px;
+}
+
+.work-desc {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.1em;
+  margin-top: 12px;
+  margin-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .gallery {
