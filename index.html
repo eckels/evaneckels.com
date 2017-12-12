@@ -190,9 +190,12 @@
     <script src="aos/aos.js"></script>
     <script>
       AOS.init({
+        startEvent: 'load',
         once: true
       });
-      window.addEventListener('load', AOS.refresh);
+      window.addEventListener('load', function() {
+        AOS.refresh();
+      });
     </script>
 
 </body>
