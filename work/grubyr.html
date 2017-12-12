@@ -1,0 +1,144 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/work-post.css" />
+    <link rel="stylesheet" href="../aos/aos.css" />
+  	<meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110019881-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110019881-1');
+    </script>
+    <title>Case Study: Grubyr</title>
+  </head>
+
+<body>
+
+<style>
+  header {
+    background: linear-gradient(to top, #00c6fb 5%, #005bea 100%);
+  }
+  .blog-wrapper-wrap h1 {
+    color: white;
+  }
+  .timeframe {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  nav a, nav span {
+    color: white;
+  }
+  .content-area a {
+    color: #007DF7;
+    border-bottom: solid #007DF7 1px;
+  }
+  .content-area a:hover {
+    color: #00c6fb;
+    border-bottom: solid #00c6fb 1px;
+  }
+  .content-area blockquote {
+    border-left: solid #007DF7 2px;
+  }
+</style>
+
+  <header id="header">
+
+    <nav>
+      <ul>
+        <li><a href="../index.html" id="fix">Home</a><span>&#8226;</span></li>
+        <li><a href="../work.html">Work</a><span>&#8226;</span></li>
+        <li><a href="../blog.html">Blog</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+    <div class="blog-wrapper-wrap">
+      <h1>Grubyr - Congressional App Challenge</h1>
+        <p class="timeframe">October 2017 - November 2017</p>
+    <div class="blog-wrap" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-delay="50" data-aos-duration="400">
+
+    <div class="content-area">
+      <img src="img/grubyrheader.png" alt="Picture of Grubyr Site" style="border-radius: 6px; box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-delay="400" data-aos-duration="600">
+      <div style="text-align: center;"><a href="https://eckels.github.io/Grubyr-UI/" target="_blank"><button>Visit Website Prototype</button></a></div>
+      <h3>The Congressional App Challenge</h3>
+      <p>The <a href="http://www.congressionalappchallenge.us" target="_blank">Congressional App Challenge</a> is an annual contest held by members of Congress where teams or individuals build their own application and create a video demonstrating their app. The competition is grouped based on state district boundaries, our district being the Illinois 8th district with US Representative <a href="https://en.wikipedia.org/wiki/Raja_Krishnamoorthi" target="_blank">Raja Krishnamoorthi</a> judging the submitted projects. My group consisted of four people, Bhargav Yadavalli, Avi Saxena, Rahul Gudivada and myself.</p>
+      <img src="img/grubyrlogo.png" alt="Congressional App Challenge Logo" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-delay="250" data-aos-duration="500">
+      <h3>What is Grubyr?</h3>
+      <p>With our app, we wanted to make it useful with the possibility of making a difference in the world. We went through some brainstorming, and decided to try and find a solution to reducing restaurant food waste. At the end of the day, many small pizza by the slice shops or bakeries are forced to throw out perfectly good food when they hit closing time. We wanted to try and help these restaurants reduce the amount wasted while also making a profit. The solution: connect the restaurants and late night hungry consumers through a site where you can find food deals at night.</p>
+      <p>Grubyr would be a place for restaurants to quickly post a deal online for customers to see. So if Panera had extra bread 20 minutes before closing time, they would be able to post a deal on Grubyr, and anyone who visited Grubyr would be able to see it, and head over to Panera and buy that bread for a reduced price. It is good for both the consumer and the restaurant, generating some revenue for the restaurant and giving the customer quality food, that would probably end up in the trash otherwise, for a lower price.</p>
+      <h3>Planning The App</h3>
+      <p>We started out by planning the structure of the app. Through our past experiences at Hackathons together, we found that communication was the main cause of failure. So we took steps to make sure that we kept things organized and everyone's role was assigned. We needed to make sure that things between the front end team (Bhargav and myself) was in sync with the back end team (Avi and Rahul) to prevent any merging errors.</p>
+      <p>After the planning phase was over, we compiled a list of all the languages/API’s we would need to use for our project. These include:</p>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>Socket.io</li>
+        <li>Google Maps API</li>
+      </ul>
+      <p>Grubyr was going to be a web application, so HTML, CSS, and JavaScript were givens. We were going to need socket.io as our server because we wanted things to update in real time so that users do not miss out on deals. We also wanted users to have a map view of all the deals, so we were going to need Google Maps API.</p>
+      <h3>Building the Front End</h3>
+      <p>I handled the front end, so I will mostly be focusing on that aspect of the application. The task was split between me and Bhargav, we decided he would handle the Google API while I handled the UI and page development.</p>
+      <h5>Creating the Header</h5>
+      <p>The header of the site needed to grab the user's attention and give them an idea of what they were looking at. Grubyr is not well known, so I needed to quickly and efficiently communicate what Grubyr was with the header of the page.</p>
+      <div class="left" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-delay="250" data-aos-duration="700">
+        <img src="img/grubyrheader.png" alt="Image of grubyr header">
+        <p>I decided to build some brand identity by putting our logo in the top left corner and shading the header in a light blue to dark blue vertical linear gradient.</p>
+      </div>
+      <p>The header consisted of 3 elements, the logo, the short phrase description of Grubyr, and the two action buttons.</p>
+      <p>The mindset behind this layout is that instantly the user's eyes are drawn to the large center text, and then the second thing they look at is the action buttons below. You want the flow of the page to make logical sense, and this way the user easily understands the purpose of our webpage.</p>
+      <h5>Informing the User Further</h5>
+      <p>Below the header, we had 2 sections talking about what our application aims to accomplish in a lot of detail. The first section had a paragraph with a stock image of the site. The purpose of this paragraph was to inform the user of the details of our app.</p>
+      <div class="right" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-delay="250" data-aos-duration="700">
+        <p>The second section shows the user how to use the site, by breaking the process into 3 simple steps with short descriptions, all displayed in a left to right fashion.</p>
+        <img src="img/grubyrabout.png" alt="Footer of the Grubyr Website">
+      </div>
+      <h3>Designing the Find Deals Page</h3>
+      <p>The find deals page was a hassle to design, because I needed to get it to show a list of all the local food deals in a list view, along with a map view.</p>
+      <div class="left" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-delay="250" data-aos-duration="700">
+        <img src="img/grubyrlist.png" alt="Screenshot of find deals UI">
+        <p>The solution I chose was having a sliding menu on the left side for the list view, and then have the map cover the back.</p>
+      </div>
+      <p>This solution allowed for the user to easily access the list view and the map view at the same time, and gave them the option to only display the map view if they wanted more space to see it.</p>
+      <img src="img/grubyrmap.png" alt="Screenshot of the map image only" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-delay="250" data-aos-duration="500">
+      <h3>Designing the Create Deal Page</h3>
+      <p>The create deal page was created to allow the business owners to easily input their deal. There were a lot of fields, and inputting information can be very mundane, so I wanted to give the page some life and added some subtle animations along with a vibrant color palette.</p>
+      <div class="right" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-delay="250" data-aos-duration="700">
+        <p>The text boxes have subtle animations when you start typing, the label moves from inside the text box to on top of the text box. It is a common animation used by large companies like <a href="https://design.google" target="_blank">Google</a>.</p>
+        <img src="img/grubyrcreate.png" alt="Screenshot of the Create Deals Page">
+      </div>
+      <p>I wanted the background to match the blue theme seen on the home page, so I applied the same gradient over the photo of the restaurant. I created a slightly transparent centered divider to encase all of the form fields so that there was enough contrast between the inputs and the background.</p>
+      <h3>The Results</h3>
+      <p>After about a month of waiting, we heard back from Raja and found out that we had won the Congressional App Challenge for our District.</p>
+      <img src="img/grubyrteam.jpg" alt="Left to right: Avi Saxena, Bhargav Yadavalli, Raja Krishnamoorthi, Evan Eckels, Rahul Gudivada" data-aos="fade-up" data-aos-easing="ease-out-quart" data-aos-delay="250" data-aos-duration="500" style="border-radius: 6px; box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.2);">
+      <p class="caption" style="max-width: 550px; margin-left: auto; margin-right: auto;">Left to right: Avi Saxena, Bhargav Yadavalli, Raja Krishnamoorthi, Evan Eckels, Rahul Gudivada</p>
+    </div>
+  </div>
+
+  </div>
+
+  </div>
+    <p class="bottom-p">Evan Eckels 2017</p>
+</div>
+
+    <script src="../aos/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true
+      });
+      window.addEventListener('load', AOS.refresh);
+    </script>
+
+</body>
+</html>
