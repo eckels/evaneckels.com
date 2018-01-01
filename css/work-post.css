@@ -222,8 +222,8 @@ Blog Styling
   margin-left: -20%;
   width: calc(700px + 20%);
   position: relative;
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 25px;
+  margin-bottom: 35px;
 }
 
 .left img {
@@ -248,8 +248,8 @@ Blog Styling
   position: relative;
   margin-right: -20%;
   width: calc(700px + 20%);
-  margin-top: 20px;
-  margin-bottom: 30px;
+  margin-top: 25px;
+  margin-bottom: 35px;
 }
 
 .right img {
@@ -306,6 +306,7 @@ button:hover {
     margin: 12px 5% 12px 5%;
     height: auto;
     display: block;
+    margin-bottom: 35px !important;
   }
 
   .left p {
@@ -328,6 +329,7 @@ button:hover {
     margin: 12px 5% 12px 5%;
     height: auto;
     display: block;
+    margin-bottom: 35px !important;
   }
 
   .right p {
