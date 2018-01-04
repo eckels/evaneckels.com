@@ -7,6 +7,15 @@ header {
 body {
   background-color: #f9f9f9;
 }
+
+.content-area p, .content-area ul, .content-area blockquote, .content-area ol {
+  font-family: 'Lora', serif;
+}
+
+.content-area .caption {
+  font-family: 'Roboto', sans-serif;
+}
+
 /*-------------------------------------
 Structure Styling
 --------------------------------------*/
@@ -45,8 +54,8 @@ Structure Styling
 }
 
 .blog-wrap {
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 45px;
+  padding-right: 45px;
   padding-top: 25px;
   padding-bottom: 25px;
   max-width: 670px;
@@ -134,13 +143,13 @@ Blog Styling
 .content-area h3 {
   color: #2a2a2a;
   font-size: 2em;
-  margin: 35px 0 12px 0;
+  margin: 50px 0 12px 0;
 }
 
 .content-area h5 {
   color: #2a2a2a;
   font-size: 1.5em;
-  margin: 28px 0 8px 0;
+  margin: 40px 0 8px 0;
 }
 
 .content-area p {
