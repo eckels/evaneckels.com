@@ -156,6 +156,7 @@ span:after {
 
 .laptop-div {
   width: 320px;
+  height: auto;
 }
 
 .browser {

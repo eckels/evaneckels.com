@@ -1,4 +1,15 @@
 $(document).ready(function() {
+
+  if (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) {
+    var browsers = $('.browser').length;
+    var j = 0;
+    while (j < browsers) {
+      $('.browser').remove();
+      console.log('works');
+      j++;
+    }
+  }
+
   var capsule = $('.grid-item').length;
   var i = 0;
   var delayCounter = 0;
