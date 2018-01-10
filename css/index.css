@@ -229,11 +229,11 @@ nav span {
   }
 
   .arrow {
-    bottom: 50px;
+    bottom: 70px;
   }
 
   .arrow:hover {
-    bottom: 40px;
+    bottom: 60px;
   }
 }
 
