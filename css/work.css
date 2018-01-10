@@ -214,6 +214,10 @@ span:after {
   transition: all .3s;
 }
 
+.grid-item:hover .project-text hr {
+  opacity: .2;
+}
+
 @media (max-width: 1275px) {
   .grid-item {
     margin: 45px 60px 45px 60px;
