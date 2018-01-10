@@ -227,6 +227,14 @@ nav span {
     width: 90%;
     margin-left: -45%;
   }
+
+  .arrow {
+    bottom: 50px;
+  }
+
+  .arrow:hover {
+    bottom: 40px;
+  }
 }
 
 @media (max-width: 430px) {

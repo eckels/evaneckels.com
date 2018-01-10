@@ -233,7 +233,7 @@ span:after {
 @media (max-width: 800px) {
   .grid-item {
     display: block;
-    margin: 45px auto 45px auto;
+    margin: 55px auto 55px auto;
   }
   span {
     margin-top: -20px;
