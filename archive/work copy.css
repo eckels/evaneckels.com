@@ -15,7 +15,7 @@
   color: #2a2a2a;
 }
 
-#work .hor {
+#work hr {
   width: 200px;
   margin: 0;
   margin-left: auto;
@@ -45,6 +45,76 @@
 .gallery a {
   text-decoration: none;
   cursor: pointer;
+}
+
+.hoverthing {
+  top: 0;
+  position: relative;
+  transition: all 0.3s;
+}
+
+.hoverthing:hover {
+  top: -12px;
+}
+
+.grid-item {
+  height: 400px;
+  width: 280px;
+  margin: 0;
+  padding: 20px 15px 20px 15px;
+  position: relative;
+  border-radius: 12px;
+  transition: all .3s;
+  top: 0;
+  display: inline-block;
+  margin: 20px 24px 20px 24px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 2px 25px rgba(0, 0, 0, 0.15);
+  vertical-align: top;
+}
+
+.grid-item:hover {
+  box-shadow: 0 14px 25px rgba(0, 0, 0, 0.15);
+}
+
+.grid-item h3 {
+  color: white;
+  font-weight: 500;
+  font-size: 1.8em;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.grid-bottom {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  bottom: 25px;
+  text-align: left;
+  left: -10px;
+  background-color: black;
+  padding: 8px 15px 8px 15px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.35);
+  display: none;
+}
+
+.grid-desc {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 1.15em;
+  color: white;
+  margin-bottom: 2px;
+}
+
+.grid-date {
+  margin: 0;
+  padding: 0;
+  font-size: .9em;
+  color: rgba(255, 255, 255, 0.65);
 }
 
 .cornerlink:hover span {
@@ -91,44 +161,103 @@ span:after {
   opacity: 1;
 }
 
-
 @media (max-width: 1250px) {
   #work {
     padding: 0 0 50px 0;
   }
 }
 
+@media (max-width: 1150px) {
+  .grid-item {
+    margin: 16px 20px 16px 20px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .grid-item {
+    margin: 16px;
+  }
+}
+
 @media (max-width: 1070px) {
+/*  .grid-item {
+    height: 410px;
+    width: 270px;
+  } */
   #work {
     padding: 0 .5% 50px .5%;
   }
 }
 
 @media (max-width: 1014px) {
+  .grid-item {
+    /* height: 440px;
+    width: 290px; */
+    margin: 20px 24px 20px 24px;
+
+  }
   #work {
     padding: 0 1% 50px 1%;
   }
 }
 
 @media (max-width: 780px) {
+  .grid-item {
+    /* height: 440px;
+    width: 290px; */
+    margin: 12px;
+
+  }
+  #work {
+    padding: 0 .5% 50px .5%;
+  }
+}
+
+@media (max-width: 716px) {
+  .grid-item {
+    /* height: 410px;
+    width: 270px; */
+    margin: 12px;
+
+  }
   #work {
     padding: 0 .5% 50px .5%;
   }
 }
 
 @media (max-width: 665px) {
+  .grid-item {
+    /* height: 440px;
+    width: 290px; */
+    margin: 16px;
+
+  }
   #work {
     padding: 0 0% 50px 0%;
   }
 }
 
 @media (max-width: 385px) {
+  .grid-item {
+    /* height: 440px;
+    width: 290px; */
+    margin-left: 0;
+    margin-right: 0;
+  }
   #work {
     padding: 0 10px 50px 10px;
   }
 
   #work h2 {
     font-size: 1.8em;
+  }
+}
+
+@media (max-width: 385px) {
+  .grid-item {
+    /* height: 410px;
+    width: 270px; */
+    margin: 10px 0 10px 0;
   }
 }
 
@@ -143,95 +272,4 @@ span:after {
 
 .bottomtext a {
   color: rgba(0, 0, 0, 0.8);
-}
-
-/* Grid Item Styling */
-
-.grid-item {
-  width: 320px;
-  display: inline-block;
-  margin: 48px 30px 48px 30px;
-}
-
-
-.laptop-div {
-  width: 320px;
-}
-
-.browser {
-  position: absolute;
-  top: 14px;
-  left: 51px;
-  width: 219px;
-  height: 141px;
-  transition: all .3s;
-  opacity: 0;
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0);
-}
-
-.laptop {
-  width: 320px;
-}
-
-.grid-item:hover .browser {
-  width: 320px;
-  height: 180px;
-  top: 0;
-  left: 0;
-  border-radius: 5px;
-  opacity: 1;
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
-}
-
-.project-text {
-
-}
-
-.project-text h3 {
-  color: #2a2a2a;
-  font-size: 1.5em;
-  margin: 0;
-  margin-top: 15px;
-  margin-bottom: 5px;
-}
-
-.project-text p {
-  margin: 0;
-  margin-top: 10px;
-  color: rgba(0, 0, 0, 0.7);
-  font-style: italic;
-  font-size: .9em;
-  line-height: 140%;
-}
-
-.project-text hr {
-  width: 60px;
-  margin: 0;
-  margin-left: auto;
-  margin-right: auto;
-  border: solid black 2px;
-  opacity: .1;
-  transition: all .3s;
-}
-
-@media (max-width: 1275px) {
-  .grid-item {
-    margin: 45px 60px 45px 60px;
-  }
-}
-
-@media (max-width: 900px) {
-  .grid-item {
-    margin: 35px 35px 35px 35px;
-  }
-}
-
-@media (max-width: 800px) {
-  .grid-item {
-    display: block;
-    margin: 45px auto 45px auto;
-  }
-  span {
-    margin-top: -20px;
-  }
 }
